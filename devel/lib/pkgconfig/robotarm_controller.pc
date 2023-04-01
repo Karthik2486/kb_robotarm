@@ -1,0 +1,8 @@
+prefix=/home/karthik/robotarm_ws/devel
+
+Name: robotarm_controller
+Description: Description of robotarm_controller
+Version: 0.0.0
+Cflags: -I/home/karthik/robotarm_ws/devel/include -I/home/karthik/robotarm_ws/src/robotarm_controller/include
+Libs: -L${prefix}/lib 
+Requires: controller_manager hardware_interface
